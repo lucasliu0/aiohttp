@@ -1,3 +1,21 @@
+
+Repository acquired from PyPi Aiohttp project
+
+Check https://pypi.org/project/aiohttp/ for original code
+
+Build instructions:
+   download zip and extract to a folder
+   
+   inside the folder run:
+   
+      pip install -r requirements/dev.txt
+   
+      python3 setup.py bdist_wheel
+   
+      pip install {folder location} 
+
+
+
 ==================================
 Async http client/server framework
 ==================================
